@@ -1,0 +1,36 @@
+h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  height: 34rem;
+  width: 23.5rem;
+  background: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.screen {
+  font-size: 50px;
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+.buttons {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 0 15px;
+}
